@@ -14,6 +14,9 @@ npm install --save-dev nodemon
 npx eslint --init
 
 npm install dotenv
+
+npm install mongodb
+npm install mongoose
 ```
 
 ### Run the project
@@ -30,3 +33,4 @@ npm start
 - [Arcjet](https://arcjet.com/)
 - [Hostinger](https://www.hostinger.com/)
 - [Httpie](https://httpie.io/)
+- [MongoDB](https://www.mongodb.com/)
