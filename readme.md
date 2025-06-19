@@ -20,6 +20,8 @@ npm install mongoose
 
 npm install jsonwebtoken
 npm install bcryptjs
+
+npm i @arcjet/node @arcjet/inspect
 ```
 
 ### Run the project
