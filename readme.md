@@ -17,6 +17,9 @@ npm install dotenv
 
 npm install mongodb
 npm install mongoose
+
+npm install jsonwebtoken
+npm install bcryptjs
 ```
 
 ### Run the project
