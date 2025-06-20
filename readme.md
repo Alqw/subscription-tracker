@@ -22,6 +22,12 @@ npm install jsonwebtoken
 npm install bcryptjs
 
 npm i @arcjet/node @arcjet/inspect
+
+npm install @upstash/workflow
+
+npm install dayjs
+
+npx @upstash/qstash-cli dev
 ```
 
 ### Run the project
