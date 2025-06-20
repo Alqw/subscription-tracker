@@ -27,7 +27,7 @@ npm install @upstash/workflow
 
 npm install dayjs
 
-npx @upstash/qstash-cli dev
+npm install nodemailer
 ```
 
 ### Run the project
@@ -36,6 +36,8 @@ npx @upstash/qstash-cli dev
 npm run dev
 
 npm start
+
+npx @upstash/qstash-cli dev
 ```
 
 # Links
@@ -45,3 +47,4 @@ npm start
 - [Hostinger](https://www.hostinger.com/)
 - [Httpie](https://httpie.io/)
 - [MongoDB](https://www.mongodb.com/)
+- [Nodemailer](https://nodemailer.com/)

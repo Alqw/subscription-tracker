@@ -83,4 +83,15 @@ export const signIn = async (req, res, next) => {
   }
 };
 
-export const signOut = async (req, res, next) => { };
+export const signOut = async (req, res, next) => {
+  try {
+    // For JWT-based auth, sign out is handled on the client by deleting the token.
+    // Optionally, you can implement token blacklisting here if needed.
+    res.status(200).json({
+      success: true,
+      message: "User signed out successfully",
+    });
+  } catch (error) {
+    next(error);
+  }
+};
